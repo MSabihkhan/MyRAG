@@ -1,9 +1,5 @@
 from llama_index.llms.google_genai import GoogleGenAI
-from llama_index.llms.ollama import Ollama
-from llama_index.embeddings.google_genai import GoogleGenAIEmbedding
-from sentence_transformers import SentenceTransformer
 from llama_index.core  import Settings
-from dotenv import load_dotenv
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 import os
 llm = None
