@@ -1,7 +1,5 @@
-from llama_index.core import VectorStoreIndex,StorageContext
+from llama_index.core import VectorStoreIndex
 from config.settings import embed_model
-from llama_index.vector_stores.chroma import ChromaVectorStore
-import chromadb
 
 def buildindexandvectorstore(all_nodes):
     index = VectorStoreIndex(all_nodes,embed_model=embed_model )
