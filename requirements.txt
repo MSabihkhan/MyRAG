@@ -1,6 +1,6 @@
 llama-index-core>=0.10.0
 llama-index-embeddings-huggingface
 streamlit>=1.32.0
-from llama_index.llms.google_genai
+llama-index-llms-google_genai
 
 
